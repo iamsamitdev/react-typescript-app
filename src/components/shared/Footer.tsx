@@ -80,7 +80,7 @@ const Footer = () => {
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
                 SEND
               </button>
             </div>
@@ -92,9 +92,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-400">
+      <div className="bg-gray-800">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a href='#' className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a href='#' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -109,18 +109,18 @@ const Footer = () => {
             </svg>
             <span className="ml-3 text-xl">React~TW</span>
           </a>
-          <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+          <p className="text-sm text-gray-200 sm:ml-6 sm:mt-0 mt-4">
             © 2020 React~TW —
             <a
               href="#"
               rel="noopener noreferrer"
-              className="text-gray-600 ml-1"
+              className="text-gray-200 ml-1"
             >
               @iamsamit
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a href='#' className="text-gray-500">
+            <a href='#' className="text-gray-200">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -132,7 +132,7 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a href='#' className="ml-3 text-gray-500">
+            <a href='#' className="ml-3 text-gray-200">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -144,7 +144,7 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
             </a>
-            <a href='#' className="ml-3 text-gray-500">
+            <a href='#' className="ml-3 text-gray-200">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -158,7 +158,7 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
               </svg>
             </a>
-            <a href='#' className="ml-3 text-gray-500">
+            <a href='#' className="ml-3 text-gray-200">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
